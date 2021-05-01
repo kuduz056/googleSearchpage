@@ -1,0 +1,293 @@
+div#header ul{
+    display: flex;
+    
+    flex-direction: row;
+    
+    float:right;
+    flex-wrap: wrap;
+    padding: 20px;
+    list-style: none;
+    vertical-align: middle;
+    font-size: 17px;
+    
+}
+div#textbox label{
+    position: absolute;
+    font-size: 24px;
+    margin-right:160px;
+    margin-top:5px;
+    opacity: 0.6;
+    
+}
+div#logo {
+justify-content: center;
+
+
+display: flex;
+
+}
+div#logo img{
+    height:90px;
+    width: 270px;
+    margin-top: 40px;
+
+}
+body div#textbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    
+}
+body{
+    display: grid;
+    margin:0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+  font-size: 81.25%;
+}
+div#textbox input#inputtext{
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    text-align:left;
+    
+    padding-left: 40px;
+    width: 490px;
+    border: thin;
+    height: 43px;
+    border-radius: 40px 40px;
+    box-shadow:1px 1px 10px 1px lightgray;
+
+}
+div#textbox input#inputtext:active{
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    text-align:left;
+    
+    padding-left: 40px;
+    width: 490px;
+    border: thin;
+    height: 43px;
+    border-radius: 40px 40px;
+    box-shadow:1px 1px 10px 1px lightgray;
+    border:none;
+
+}
+div#textbox i{
+    
+    margin:0;
+    justify-content: left;
+    display: flex;
+    position:absolute;
+}
+div#textbox img{
+    height: 20px;
+    position:absolute;}
+
+.fas {margin-left:1000px;
+    padding-right:465px;
+    padding-top: 17px;
+    min-width: 40px;
+    
+    display: flex;
+    text-align: start;
+}
+img#mic{
+    padding-left:490px;
+    padding-top: 12px;
+
+}
+
+    
+
+    
+     
+    
+
+
+    
+div#second_line p span{
+    display: flex;
+    justify-content: center;
+    
+}
+div#firstline p span{
+    
+    display: flex;
+    justify-content: center;
+}
+
+span a{
+    margin-top: 10px;
+    font-size: 9px;
+    justify-content: center;
+    display: flex;
+    
+    text-decoration: none;
+    color: black;
+    
+}
+    div#firstline p i{
+        background-color:rgb(235, 232, 232);
+        margin-top: 17px;
+        margin-left: 36px;
+        margin-right: 36px;
+        border-radius: 50%;
+        padding:8px;
+        color: green;
+    }
+    div#second_line p i{
+        background-color:rgb(235, 232, 232);
+        margin-top: 14px;
+        margin-left: 36px;
+        margin-right: 36px;
+        border-radius: 50%;
+        padding:8px;
+        color: green;
+    }
+   
+    
+div#firstline,div#second_line{
+    display: flex;
+    justify-content:center;
+  
+}
+div#second_line  p.active1:hover,p.active2:hover,p.active3:hover,p.active4:hover,p.active5:hover{
+   background-color:rgb(199, 196, 196);
+   
+   border-radius: 4%;
+   
+   
+   
+    
+}
+
+div#firstline  p.active1:hover,p.active2:hover,p.active3:hover,p.active4:hover,p.active5:hover{
+    background-color:rgb(199, 196, 196);
+    
+    border-radius: 4%;
+    margin-bottom: 0;
+    
+    
+     
+ }
+ div#firstline p.active1 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+    
+ 
+ div#firstline p.active1:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+ div#firstline p.active2 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+    
+ 
+ div#firstline p.active2:hover img#active{
+ display: block;
+ opacity: 1;}
+ div#firstline p.active3 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+    
+ 
+ div#firstline p.active3:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+ div#firstline p.active4 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+    
+ 
+ div#firstline p.active4:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+ div#firstline p.active5 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+    
+ 
+ div#firstline p.active5:hover img#active{
+ display: block;
+ opacity: 1;
+ 
+ }
+
+
+div#second_line p.active1 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+div#second_line p.active1:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+
+ div#second_line p.active2 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+     
+ 
+ div#second_line p.active2:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+ div#second_line p.active3 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+     
+ 
+ div#second_line p.active3:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+ div#second_line p.active4 img#active{
+    float: right; margin-top:10px; margin-left:-15px;margin-right: 5px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.4s;
+}
+     
+ 
+ div#second_line p.active4:hover img#active{
+ display: block;
+ opacity: 1;
+ }
+
+ div#second_line p.active5 img{
+    background-color:rgb(235, 232, 232);
+    margin-top: 11.5px;
+    margin-left: 40px;
+    margin-right: 36px;
+    border-radius: 50%;
+    padding:8px;
+    height: 12px;
+    width:12px;
+ }
